@@ -1,0 +1,10 @@
+[user]
+	name = matthewspydell
+	email = matthew.spydell@colorado.edu
+[core]
+	editor = subl -n -w
+	excludesfile = ~/.config/git/gitignore
+[help]
+	autocorrect = 50
+[push]
+	default = simple
