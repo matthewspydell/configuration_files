@@ -129,8 +129,8 @@ fi
 
 # setup ROS environment
 
-if [ -f /opt/ros/lunar/setup.bash ]; then
-    . /opt/ros/lunar/setup.bash
+if [ -f /opt/ros/kinetic/setup.bash ]; then
+    . /opt/ros/kinetic/setup.bash
 fi
 
 # setup powerline terminal prompt
