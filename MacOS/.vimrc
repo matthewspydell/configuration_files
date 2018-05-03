@@ -80,7 +80,11 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 
-" Setup inentline
+" Setup indentline
 let g:indentLine_enabled = 1
 let g:indentLine_char = '⸽'
 " ⸾⸽┊┆
+
+" Setup comfortable motion-values
+let g:comfortable_motion_friction = 40.0
+let g:comfortable_motion_air_drag = 3.0
